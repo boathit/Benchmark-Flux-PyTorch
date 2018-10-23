@@ -2,6 +2,8 @@
 
 ## 2018-10-22
 
+### Version Info
+
 **Platform**: Ubuntu 14.04 with Tesla K40 GPU.
 
 
@@ -13,6 +15,8 @@
 
 ### Feed Forward Neural Net
 
+mlp
+
 |         | GPU Usage  | Time     | Accuracy |
 | ------- | ---------- | -------- | -------- |
 | PyTorch | **287 MB** | 89 s     | 0.978    |
@@ -22,6 +26,8 @@
 
 ### Convolutional Neural Net
 
+convnet
+
 |         | GPU Usage  | Time     | Accuracy |
 | ------- | ---------- | -------- | -------- |
 | PyTorch | **414 MB** | 92 s     | 0.992    |
@@ -30,6 +36,8 @@
 
 
 ### Residual Neural Net
+
+resnet
 
 |         | GPU Usage | Time  | Accuracy |
 | ------- | --------- | ----- | -------- |
