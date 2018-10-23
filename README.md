@@ -1,10 +1,9 @@
 # Benchmark: PyTorch and Flux.jl
 
-## 2018-10-22
 
-### Version Info
+### Platform and Version Info
 
-**Platform**: Ubuntu 14.04 with Tesla K40 GPU.
+Ubuntu 14.04 with Tesla K40 GPU.
 
 
 | Tool        | CUDA | Python | PyTorch | Julia | [Flux.jl](https://github.com/FluxML/Flux.jl) | [CuArrays.jl](https://github.com/JuliaGPU/CuArrays.jl) |
