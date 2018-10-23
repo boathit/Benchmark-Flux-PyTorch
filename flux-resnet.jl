@@ -52,10 +52,6 @@ function buildResBlocks(ch::Pair{<:Int,<:Int}, stride::Int, num_blocks::Int)
     Chain(blocks...)
 end
 
-struct ResNet
-    f
-end
-
 ResNet(num_classes::Int) =
     Chain(conv3x3(3=>16, 1),
           BatchNorm(16),
@@ -66,10 +62,6 @@ ResNet(num_classes::Int) =
           MeanPool((8,8)),
           x -> reshape(x, :, size(x, 4)),
           Dense(64, num_classes))
-
-@treelike ResNet
-
-(rn::ResNet)(x) = rn.f(x)
 
 m = ResNet(10) |> gpu
 
