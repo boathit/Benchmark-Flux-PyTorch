@@ -1,7 +1,7 @@
-# Benchmark: PyTorch and Flux.jl
+# Benchmark PyTorch and Flux.jl
 
 
-### Platform and Version Info
+## Platform and Version Info
 
 Ubuntu 14.04 with Tesla K40 GPU.
 
@@ -12,7 +12,7 @@ Ubuntu 14.04 with Tesla K40 GPU.
 
 
 
-### Feed Forward Neural Net
+## Feed Forward Neural Net
 
 mlp
 
@@ -23,7 +23,7 @@ mlp
 
 
 
-### Convolutional Neural Net
+## Convolutional Neural Net
 
 convnet
 
@@ -34,7 +34,7 @@ convnet
 
 
 
-### Residual Neural Net
+## Residual Neural Net
 
 resnet
 
